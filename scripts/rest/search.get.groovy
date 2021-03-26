@@ -24,3 +24,4 @@ def searchHelper = new SearchHelper(elasticsearch, urlTransformationService)
 def results = searchHelper.search(userTerm, categories, start, rows)
 
 return results;
+// test
